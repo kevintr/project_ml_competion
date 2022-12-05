@@ -1,0 +1,14 @@
+Use Anaconda to ricreate the correct evn
+
+
+Inside CondaEnv you will find the env_image_segmentation.yaml.
+You have to import this file inside Anaconda Navigator
+
+
+
+
+Mask_RCNN
+
+Downloag Mask_RCNN from https://github.com/matterport/Mask_RCNN.git
+
+

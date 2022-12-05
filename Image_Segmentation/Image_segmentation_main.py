@@ -7,20 +7,18 @@ import skimage.io
 import matplotlib
 import matplotlib.pyplot as plt
 import warnings
-
-# pip install keras==2.2.5
-
-# Fetching the root directory
-# ROOT_DIR = os.path.abspath("../")
-
-warnings.filterwarnings("ignore")
-# Importing Mask RCNN 
-sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn import utils
 import mrcnn.model as modellib
 from mrcnn import visualize
-# Heading to the coco directory
-sys.path.append(os.path.join(ROOT_DIR, "samples/coco/"))  
-#importing coco.py
+# imposta il path dove hai i dati
+path = str(r'C:\Users\kevin\project_kevin\ml\Image_Segmentation\Mask_RCNN\samples\coco')
+path = path.replace("\\","/")
+os.chdir(path)
+
+#pip install pycocotools-windows
 import coco
-# matplotlib inline
+
+
+
+
+
